@@ -76,4 +76,8 @@
     return chat;
 }
 
+-(ChatListIMViewController*)chatListView{
+    return [[ChatListIMViewController alloc] init];
+}
+
 @end

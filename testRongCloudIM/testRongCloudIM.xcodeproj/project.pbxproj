@@ -14,6 +14,7 @@
 		6E3536A51C3F645D00D59467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3536A41C3F645D00D59467 /* Assets.xcassets */; };
 		6E3536A81C3F645D00D59467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3536A61C3F645D00D59467 /* LaunchScreen.storyboard */; };
 		6E3536B51C3F96A300D59467 /* RongCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3536B41C3F96A300D59467 /* RongCloudManager.m */; };
+		6E3536B81C3FA44D00D59467 /* ChatListIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3536B71C3FA44D00D59467 /* ChatListIMViewController.m */; };
 		EAE8697E6EA5C0C9F9DA2CC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C54389475728A49BFCA0E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,8 @@
 		6E3536A91C3F645D00D59467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E3536B31C3F96A300D59467 /* RongCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudManager.h; sourceTree = "<group>"; };
 		6E3536B41C3F96A300D59467 /* RongCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudManager.m; sourceTree = "<group>"; };
+		6E3536B61C3FA44D00D59467 /* ChatListIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListIMViewController.h; sourceTree = "<group>"; };
+		6E3536B71C3FA44D00D59467 /* ChatListIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListIMViewController.m; sourceTree = "<group>"; };
 		7ED3A397CCC5E3013E6DB319 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +107,8 @@
 			children = (
 				6E3536B31C3F96A300D59467 /* RongCloudManager.h */,
 				6E3536B41C3F96A300D59467 /* RongCloudManager.m */,
+				6E3536B61C3FA44D00D59467 /* ChatListIMViewController.h */,
+				6E3536B71C3FA44D00D59467 /* ChatListIMViewController.m */,
 			);
 			name = RongCloud;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			files = (
 				6E3536B51C3F96A300D59467 /* RongCloudManager.m in Sources */,
 				6E3536A01C3F645D00D59467 /* ViewController.m in Sources */,
+				6E3536B81C3FA44D00D59467 /* ChatListIMViewController.m in Sources */,
 				6E35369D1C3F645D00D59467 /* AppDelegate.m in Sources */,
 				6E35369A1C3F645D00D59467 /* main.m in Sources */,
 			);

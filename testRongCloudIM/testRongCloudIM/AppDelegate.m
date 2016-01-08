@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "RongCloudViewController.h"
 #import "RongCloudManager.h"
 
 @interface AppDelegate ()
@@ -23,9 +22,10 @@
     
     RongCloudManager * rongCloud = [RongCloudManager sharedManager];
     
-    RCConversationViewController *chatViewController = [rongCloud chatViewWithType:ConversationType_PRIVATE withId:@"2"];
+    ChatListIMViewController* chatlist = [rongCloud chatListView];
+    //RCConversationViewController *chatViewController = [rongCloud chatViewWithType:ConversationType_PRIVATE withId:@"2"];
     
-    UINavigationController *rootNaviController = [[UINavigationController alloc] initWithRootViewController:chatViewController];
+    UINavigationController *rootNaviController = [[UINavigationController alloc] initWithRootViewController:chatlist];
     
     self.window.rootViewController = rootNaviController;
     [self.window makeKeyAndVisible];

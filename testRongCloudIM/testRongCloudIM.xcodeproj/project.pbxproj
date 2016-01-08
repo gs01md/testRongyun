@@ -13,6 +13,7 @@
 		6E3536A31C3F645D00D59467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3536A11C3F645D00D59467 /* Main.storyboard */; };
 		6E3536A51C3F645D00D59467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3536A41C3F645D00D59467 /* Assets.xcassets */; };
 		6E3536A81C3F645D00D59467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3536A61C3F645D00D59467 /* LaunchScreen.storyboard */; };
+		6E3536B51C3F96A300D59467 /* RongCloudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3536B41C3F96A300D59467 /* RongCloudManager.m */; };
 		EAE8697E6EA5C0C9F9DA2CC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C54389475728A49BFCA0E2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,8 @@
 		6E3536A41C3F645D00D59467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E3536A71C3F645D00D59467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E3536A91C3F645D00D59467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E3536B31C3F96A300D59467 /* RongCloudManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RongCloudManager.h; sourceTree = "<group>"; };
+		6E3536B41C3F96A300D59467 /* RongCloudManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RongCloudManager.m; sourceTree = "<group>"; };
 		7ED3A397CCC5E3013E6DB319 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +77,7 @@
 		6E3536971C3F645D00D59467 /* testRongCloudIM */ = {
 			isa = PBXGroup;
 			children = (
+				6E3536AF1C3F827A00D59467 /* RongCloud */,
 				6E35369B1C3F645D00D59467 /* AppDelegate.h */,
 				6E35369C1C3F645D00D59467 /* AppDelegate.m */,
 				6E35369E1C3F645D00D59467 /* ViewController.h */,
@@ -93,6 +97,15 @@
 				6E3536991C3F645D00D59467 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E3536AF1C3F827A00D59467 /* RongCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6E3536B31C3F96A300D59467 /* RongCloudManager.h */,
+				6E3536B41C3F96A300D59467 /* RongCloudManager.m */,
+			);
+			name = RongCloud;
 			sourceTree = "<group>";
 		};
 		AAEE5909037746BA741205BF /* Frameworks */ = {
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3536B51C3F96A300D59467 /* RongCloudManager.m in Sources */,
 				6E3536A01C3F645D00D59467 /* ViewController.m in Sources */,
 				6E35369D1C3F645D00D59467 /* AppDelegate.m in Sources */,
 				6E35369A1C3F645D00D59467 /* main.m in Sources */,

@@ -1,0 +1,10 @@
+PODS:
+  - RongCloudIMKitWithVoip (2.4.3)
+
+DEPENDENCIES:
+  - RongCloudIMKitWithVoip (= 2.4.3)
+
+SPEC CHECKSUMS:
+  RongCloudIMKitWithVoip: f4cf6c9b322ddbd67797916ae58e78f1e77d6743
+
+COCOAPODS: 0.39.0
